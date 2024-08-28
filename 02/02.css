@@ -1,0 +1,34 @@
+header{
+  background-color: aliceblue;
+}
+
+main{
+  background-color: aliceblue;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+#menu > li {
+  background-color: rgb(252, 252, 253);
+}
+
+#menu > a {
+   background-color: aquamarine;
+}
+
+section{
+  background-color: beige;
+}
+
+.s1{
+  background-color: azure;
+}
+
+.s2{
+  background-color: blanchedalmond;
+}
+
+/* 클래스보다 아이디가 우선 */
