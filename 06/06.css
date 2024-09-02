@@ -1,0 +1,18 @@
+.sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+#msg, #msg2{
+  margin-left: 10px;
+
+}
+.sec > button {
+  margin: 5px;
+}
+
+section >h2{
+  
+}

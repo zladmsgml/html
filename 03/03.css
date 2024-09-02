@@ -1,0 +1,43 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header, main {
+  width: 60%; 
+  margin-left: 20%;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+header{
+  height: 80px;
+  background-color: dodgerblue;
+  color: white;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header > img {
+  width: 30px;
+  height: 30px;
+}
+
+button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: aquamarine;
+  border: none;
+}
+
+button:hover{
+  background-color: darkgreen;
+  font-weight: bold;
+}
+

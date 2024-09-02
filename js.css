@@ -1,0 +1,48 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header, main {
+  width: 60%; 
+  margin-left: 20%;
+
+  display: flex;
+}
+
+header{
+  height: 80px;
+  background-color: dodgerblue;
+  color: white;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header > img {
+  width: 30px;
+  height: 30px;
+}
+
+main {
+  height: 450px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted gray;
+}
+
+button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+}
+
+button:hover{
+  background-color: rgb(80, 77, 83);
+  font-weight: bold;
+}
