@@ -13,6 +13,12 @@
   margin: 5px;
 }
 
-section >h2{
+#msg3{
   
+  height: 40px;
+  padding: 10px;
+  background-color: azure;
+
+  font-weight: bold;
+  color: black;
 }

@@ -19,11 +19,16 @@ header, header ul{
   flex-direction: row; 
   justify-content: space-between;
   align-items: center;
+  
+  
+  
 }
 header, main, footer{
-  width: 80%;
+  width: 80%; 
+  /* 브라우저 창 너비의 80$ */
   margin-left: 10%;
-  
+  /* 요소의 전체 너비는 80%로 설정되어 있으므로, 나머지 20%의 너비가 여백으로 남습니다.
+이 20%의 여백 중 10%를 왼쪽에, 나머지 10%는 오른쪽에 배치됩니다. */
 }
 header, main {
   background-color: rgb(207, 233, 245);
