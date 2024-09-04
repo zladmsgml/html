@@ -26,6 +26,7 @@ b<!DOCTYPE html>
         <select id="sel1" name="sel1"> 
           <!-- 셀렉트는 옵션을 반드시가져야함 -->
           <option value="℃" selected>섭씨온도(℃)</option>
+          <!-- 섭씨온도선택하면 도씨나오는 코드 -->
           <option value="℉">화씨온도(℉)</option>
         </select>
       </div>
@@ -40,11 +41,12 @@ b<!DOCTYPE html>
     <div class = 'row'>
       <div class = 'col'>
           <input type="number" id="txt1" name="txt1">
-          <labe for="txt1">℃ </labe>
+          <!-- 숫자만들어가게 -->
+          <label for="txt1">℃ </label>
       </div>
       <div class = 'col'>
-        <input type="number" id="txt2" name="txt2">
-        <labe for="txt2">℉ </labe>
+        <input type="number" id="txt2" name="txt2" readonly>
+        <label for="txt2">℉ </label>
 
       </div>
 
