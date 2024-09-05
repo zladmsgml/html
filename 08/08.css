@@ -1,6 +1,9 @@
-sec > h2{
+.sec >h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
+  background-color:rgb(117, 177, 255);
+
 }
+
