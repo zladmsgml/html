@@ -1,0 +1,53 @@
+.sec{
+  width: 100%;
+
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1{
+  background-color: rgba(228, 230, 231, 0.973);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+.divplus > span{
+ color: rgb(100, 105, 104);
+ font-size: xx-large;
+
+}
+
+span{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(135, 244, 248);
+  font-size: larger;
+  font-weight: bold;
+}
+
+.sp0{
+  background-color: rgb(206, 250, 125);
+}
+
+.sp1{
+  background-color: rgb(252, 250, 135);
+}
+
+.sp2{
+  background-color: rgb(190, 125, 250);
+}
+
+.sp3{
+  background-color: rgb(250, 125, 142);
+}
+
+.sp4{
+  background-color: rgb(250, 154, 125);
+}
