@@ -64,18 +64,18 @@ ul{
   list-style: none;
 }
 .menuli {
+  box-shadow: 0 0 0 1.5px; color: rgb(160, 164, 164);
+  
   margin-left: 10px;
   margin-right: 10px;
   padding: 10px;
   border-radius: 5px;
 
-  background-color: blue;
-  color: white
-
+  background-color: rgb(140, 209, 211);
   
   }
   .menuli:hover{
-    background-color: chocolate;
+    background-color: rgb(96, 247, 255);
   }
 
 a{
@@ -167,5 +167,11 @@ h2 {
 footer li{
   border: 1px dotted white;
   text-align: center;
+}
+
+#home{
+  width: 40px;
+  padding: 5px;
+  margin-left: 5px;
 }
 

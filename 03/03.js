@@ -7,3 +7,6 @@ function handleClick() {
 const handleClick2 =() => {
   alert('화살표 함수');
 }
+
+
+

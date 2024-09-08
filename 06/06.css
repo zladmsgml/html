@@ -5,20 +5,28 @@
   align-items: center;
   margin: 10px;
 }
-#msg, #msg2{
-  margin-left: 10px;
+.msg{
+  margin-left: 15px;
 
 }
 .sec > button {
   margin: 5px;
 }
 
-#msg3{
+#msg3 {
   width: 90%;
   height: 40px;
   padding: 10px;
-  background-color: azure;
+  background-color: rgb(255, 255, 255);
 
-  font-weight: bold;
-  color: black;
+  border: 1px solid grey;
+  font-weight : bold;
+  color: rgb(229, 38, 38);
+ }
+
+.msg > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }

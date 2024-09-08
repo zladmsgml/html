@@ -31,7 +31,7 @@ header > img {
 button{
   padding: 10px;
   border-radius: 5px;
-  background-color: cornflowerblue;
+  background-color: rgb(51, 119, 247);
   color: aquamarine;
   border: none;
 }
