@@ -3,3 +3,7 @@ h2 > span {
   font-weight: bold;
   padding-left: 10px;
 }
+
+button{
+  margin-top: 20px;
+}
