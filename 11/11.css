@@ -1,0 +1,25 @@
+.sec, .sec1{
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  width: 80%;
+  height: 30px;
+
+}
+
+.secBt1, .secBt2, .secBt3{
+  width: 15%;
+  margin-top: 10px;
+  margin: 10px
+
+}
+#home{
+  width: 30%;
+  height: 10%;
+}
+
