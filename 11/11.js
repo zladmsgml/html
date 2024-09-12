@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     console.log('jsonDt =',jsonDt);
     console.log('jsonDt =',jsonDt['apple']);
 
-  });
+  })
 
   secBt42.addEventListener('click',(e)=>{
     e.preventDefault();
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded',()=>{
       // txt1.value = txt1.value.replaceAll(addItem, ''); //<case1>
       let tmArr = Array.from(txt1.value); //이모지로 분리
       // let tmArr = txt1.value.split(''); //유니코드로 분리
-      console.log(tmArr);
+     
       // for(let i =0; i<tmArr.length; i++){
       //   if (tmArr[i] == addItem) tmArr[i] =''; 
       // } <case2>
@@ -79,6 +79,6 @@ document.addEventListener('DOMContentLoaded',()=>{
       tmArr = tmArr.map(item => item == items[0] ? items[1] : item);
       txt1.value = tmArr.join('');
       console.log(tmArr);
-    })
+    });
   }
 });

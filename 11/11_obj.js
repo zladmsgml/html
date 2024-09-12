@@ -39,4 +39,5 @@ obj2 = {orange: '🍊'};
 obj = {...obj, ...obj2};
 console.log(obj);
 
-
+// Object.keys(obj).map[item =>];
+// Object.values(obj).filter

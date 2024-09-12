@@ -51,3 +51,8 @@ span{
 .sp4{
   background-color: rgb(250, 154, 125);
 }
+
+#home{
+  width: 30%;
+  height: 10%;
+}
