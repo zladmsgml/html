@@ -1,0 +1,18 @@
+.col{
+  width: 100px;
+  height: 100px;
+  
+
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+  display: flex;
+}
+
+button {
+  margin-top: 20px;
+}
