@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     console.log('obj2 =',obj2['apple']);
     
 
-  });
+  })
   //추가
   for(let bt of secBt1){
     bt.addEventListener('click', (e)=>{
@@ -39,9 +39,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
       let addItem = bt.innerHTML.replace('추가','');
       txt1.value = txt1.value + addItem;
-      console.log(bt.innerHTML);
-  
-    
+      console.log(bt.innerHTML);   
     });
   }
   //삭제
